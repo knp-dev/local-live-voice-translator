@@ -49,9 +49,9 @@ Windows:
 .venv/Scripts/activate.bat
 ```
 
-Install dependencies using uv ("cu124" for NVIDIA GPUs or "cpu"):
+Install dependencies using uv ("cu128" for NVIDIA GPUs or "cpu"):
 ```
-uv sync --extra cu124
+uv sync --extra cu128
 ```
 
 ### Download the LLM model
