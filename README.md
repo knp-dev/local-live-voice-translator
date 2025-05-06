@@ -54,6 +54,11 @@ Install dependencies using uv ("cu128" for NVIDIA GPUs or "cpu"):
 uv sync --extra cu128
 ```
 
+Install unidic for japanese support
+```
+python -m unidic download
+```
+
 ### Download the LLM model
 
 ```bash
